@@ -1,0 +1,25 @@
+/*HolidaysHeroSection.css*/
+.holiday-hero-section{
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Keyframes for zoom in and out animation */
+@keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ /* Apply animation to h1 inside .holiday-hero-section */
+  .holiday-hero-section h1 {
+    animation: zoomInOut 3s ease-in-out infinite;
+  }

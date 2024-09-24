@@ -1,0 +1,28 @@
+.recent-holidays .row .col-md-6:first-of-type .img-item{
+    background-image: url(../../Assets/images/Zaghouan.jpg);
+}
+.recent-holidays .row .col-md-6:nth-last-of-type(2) .img-item{
+    background-image: url(../../Assets/images/Skanes.jpg);
+}
+.recent-holidays .row .col-md-6:nth-last-of-type(3) .img-item{
+    background-image: url(../../Assets/images/AinDrahem.jpg);
+}
+.recent-holidays .row .col-md-6:last-of-type .img-item{
+    background-image: url(../../Assets/images/SidiBouSaid.jpg);
+}
+.recent-holidays .img-item{
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.recent-holidays .h5,
+.recent-holidays .price{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width : 576px){
+  .recent-holidays .img-item{
+        height: 200px;
+    } 
+}

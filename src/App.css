@@ -1,0 +1,64 @@
+/*App.css*/
+
+:root {
+  --primary-color: #025959;
+  --secondary-color: #A0A603;
+
+  --bg-nav:#F2E0C9;
+  --primary-bg-color: rgba(160, 166, 3, .8); 
+  --secondary-bg-color: rgba(2, 89, 89, 0.9);
+}
+
+.App {
+  text-align: center;
+}
+
+.btn-primary{
+  background-color: var(--primary-bg-color);
+}
+
+.App h1{
+  font-size: 4.5rem;
+}
+.App h2{
+  font-size: 3.5rem;
+}
+.App h3{
+  font-size: 2.5rem;
+}
+
+.App h1, .App .h1, .App h3, .App .h3, .App h5, .App .h5{
+  color: var(--primary-color);
+}
+.App h2, .App .h2, .App h4, .App .h4, .App h6, .App .h6{
+  color: var(--secondary-color);
+}
+
+
+
+.text-green{
+  color: var(--primary-color);
+}
+.img-hover,
+.img-hover:hover{
+  transition: all 0.5s ease;
+}
+
+.img-hover:hover{
+  transform: scale(1.03);
+}
+
+@media screen and (max-width : 576px){
+  .App h1{
+    font-size: 3rem;
+  }
+  .App h2{
+    font-size: 2rem;
+  }
+  .App h3{
+    font-size: 2rem;
+  }
+  .App h3{
+    font-size: 1.75rem;
+  }
+}

@@ -1,0 +1,38 @@
+/*EvryOneHolidays css*/
+.evryone-holidays-section .card{
+    height: 200px;
+}
+.evryone-holidays-section .card:hover{
+    cursor: pointer;
+}
+.evryone-holidays-section .row .col-md-6:first-of-type .img-item{
+    background-image: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.75)), url(../../Assets/images/All-inclusive.jpg);
+}
+.evryone-holidays-section .row .col-md-6:nth-of-type(2) .img-item{
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.65)), url(../../Assets/images/beach-holidays.jpg);
+}
+.evryone-holidays-section .row .col-md-6:nth-of-type(3) .img-item{
+    background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.75)), url(../../Assets/images/Boar-cruise.jpg);
+}
+.evryone-holidays-section .row .col-md-6:nth-of-type(4) .img-item{
+    background-image: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.85)), url(../../Assets/images/City-breaks.jpg);
+}
+.evryone-holidays-section .row .col-md-6:nth-of-type(5) .img-item{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.75)), url(../../Assets/images/hotel-only.jpg);
+}
+.evryone-holidays-section .row .col-md-6:last-of-type .img-item{
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7)), url(../../Assets/images/Winter-holidays.jpg);
+}
+.evryone-holidays-section .img-item{
+    background-position: center;
+    background-size: cover;
+}
+
+.evryone-holidays-section .price{
+    font-size: 1.75rem;
+}
+@media screen and (max-width: 576px){
+    .evryone-holidays-section .card{
+        height: 300px;
+    }
+}

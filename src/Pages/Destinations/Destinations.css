@@ -1,0 +1,18 @@
+
+
+.destination-page .city-breaks-hero-section{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.67)), url(../../Assets/images/destination-hero-bg.jpg);
+}
+
+.destination-page .holiday-plan-section{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.67)), url(../../Assets/images/Destination-holiday-plan-section-bg.jpg);
+}
+
+
+.destination-page .sahara-destination{
+    background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(../../Assets/images/sahara.jpg);
+    
+}
+.destination-page .need-inspiration-section{
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(../../Assets/images/sahara-need-bg.jpg);
+}

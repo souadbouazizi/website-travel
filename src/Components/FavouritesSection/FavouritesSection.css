@@ -1,0 +1,25 @@
+
+/*FavouritesSections.css*/
+.favourites-section .Spa-div{
+    background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)), url(../../Assets/images/spa.jpg);
+}
+
+.favourites-section .Pool-div{
+    background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)), url(../../Assets/images/Swimming-Pool.jpg);
+}
+
+.favourites-section .Fitness-div{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)), url(../../Assets/images/Fitness-Center.jpg);
+}
+
+.favourites-section .All-div{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)), url(../../Assets/images/all.jpg);
+}
+.favourites-section .Spa-div,
+.favourites-section .Pool-div,
+.favourites-section .Fitness-div,
+.favourites-section .All-div{
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}

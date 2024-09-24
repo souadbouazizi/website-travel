@@ -1,0 +1,32 @@
+/*Navigation.css*/
+
+.navbar {
+    background-color: var(--bg-nav);
+}
+
+.navbar .navbar-toggler-icon{
+    filter: brightness(.5);
+}
+.navbar .navbar-brand img{
+    transform: rotate(-10deg);
+   width: 9rem;
+}
+.nav-link{
+    transition: width 2s, height 2s, transform 2s;
+}
+.nav-link:hover {
+    color: #fff !important; 
+    background-color: var(--primary-color); 
+  }
+  
+
+  .nav-link.selected {
+    color: #fff !important; 
+    background-color: var(--primary-color); 
+  }
+@media  and (max-width: 576) {
+    .navbar{
+        background-color: var(--bg-nav);
+    }
+    
+}

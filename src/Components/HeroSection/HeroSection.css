@@ -1,0 +1,56 @@
+/*heroStation*/
+
+.carousel-item1{
+    background-image: linear-gradient(to right, rgba(0,0,0,.50), rgba(0,0,0,0.3)), url(../../Assets/images/carousel1.jpg);
+}
+
+.carousel-item2{
+    background-image: linear-gradient(to right, rgba(0,0,0,.50), rgba(0,0,0,0.3)), url(../../Assets/images/carousel2.jpg);
+}
+
+.carousel-item3{
+    background-image: linear-gradient(to right, rgba(0,0,0,.50), rgba(0,0,0,0.3)), url(../../Assets/images/carousel3.jpg);
+}
+.carousel-item1,
+.carousel-item2,
+.carousel-item3{
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+@media screen and (max-width: 992) {
+    .carousel-item1{
+        background-image: linear-gradient(to right, rgba(0,0,0,.50), rgba(0,0,0,0.5)), url(../../Assets/images/carousel1.jpg);
+    }
+    
+    .carousel-item2{
+        background-image: linear-gradient(to right, rgba(0,0,0,.50), rgba(0,0,0,0.5)), url(../../Assets/images/carousel2.jpg);
+    }
+    
+    .carousel-item3{
+        background-image: linear-gradient(to right, rgba(0,0,0,.40), rgba(0,0,0,0.4)), url(../../Assets/images/carousel3.jpg);
+    }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 6rem !important;
+    height: 6rem !important;
+}
+
+/* Keyframes for zoom in and out animation */
+@keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+/* Apply animation to h1 inside .hero-section */
+  .hero-section h1 {
+    animation: zoomInOut 3s ease-in-out infinite;
+  }

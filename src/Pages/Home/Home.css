@@ -1,0 +1,11 @@
+/*Home css page*/
+.home-page .recommended-section .container{
+    background-image: url(../../Assets/images/bg-recommended-section.jpg);
+}
+.home-page .holiday-plan-section{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url(../../Assets/images/bg-holiday-plan-section.jpg);
+}
+
+.home-page .need-inspiration-section{
+    background-image: url(../../Assets/images/need-inspiration-section-bg.jpg);
+}
